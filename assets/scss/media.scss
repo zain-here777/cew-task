@@ -1,0 +1,132 @@
+@media (max-width: 1050px) {
+  .exclusive-btns {
+    flex-wrap: wrap;
+
+    & > * {
+      flex: 1;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    .nav-link.active {
+      border-bottom: none;
+    }
+  }
+  .cew-header-btns {
+    flex-wrap: wrap;
+
+    & > * {
+      flex: 1;
+    }
+  }
+  .exclusive-section {
+    padding: 20px;
+  }
+  .exclusive-btns {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cew-header {
+    padding: 50px 0 100px 0px;
+  }
+  .cew-header-content {
+    h4 {
+      font-size: 20px;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+  .essay-header {
+    min-height: 110px;
+    padding: 0 10px;
+    text-align: center;
+
+    h3 {
+      font-size: 20px;
+    }
+  }
+  .essay-content {
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+  .essay-card-icon-container {
+    width: 200px;
+    min-height: 75px;
+  }
+  .exclusive-section {
+    text-align: center;
+  }
+  .exclusive-btns {
+    button {
+      font-size: 18px;
+      height: 50px;
+    }
+  }
+  .prof-header {
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+  .prof-teachers-section {
+    .carousel-control-next, .carousel-control-prev {
+      width: 55px;
+      height: 55px;
+    }
+
+    .card {
+      min-height: auto;
+    }
+  }
+  .carousel-control-next, .carousel-control-prev {
+    top: -50px;
+    display: none !important;
+  }
+  .footer-feature {
+    font-size: 20px;
+  }
+  .profile-btn {
+    position: static;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .exclusive-section {
+    margin: 0;
+    border-radius: 0;
+  }
+  .prof-teachers-section {
+    margin-inline: 0;
+    padding: 20px;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+  .carousel-control-prev {
+    right: 60px;
+  }
+  .carousel-control-next {
+    right: 0px;
+  }
+
+}
